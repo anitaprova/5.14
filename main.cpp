@@ -16,17 +16,18 @@ void sort2(int& a, int& b){
 	int temp = a;
 	a = b;
 	b = temp;
-	cout << a << " " << b;
+	//cout << a << " " << b;
 }
   
 int main() {
-	int u = 0;
-	cin >> u;
+	int a = 0;
+	cin >> a;
 
-	int v = 0;
-	cin >> v;
+	int b = 0;
+	cin >> b;
 
-	sort2(u, v);
+	sort2(a, b);
+	cout << a << b;
 
 	return 0;
 }
