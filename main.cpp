@@ -13,10 +13,11 @@
 using namespace std;
   
 void sort2(int& a, int& b){
-	int temp = a;
-	a = b;
-	b = temp;
-	//cout << a << " " << b;
+	if (a > b) {
+		int temp = a;
+		a = b;
+		b = temp;
+	}
 }
   
 int main() {
