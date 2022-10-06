@@ -16,7 +16,7 @@ void sort2(int& a, int& b){
 	int temp = a;
 	a = b;
 	b = temp;
-	cout << a << " " << b;
+	//cout << a << " " << b;
 }
   
 int main() {
